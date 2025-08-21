@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Data folders (optional if you want to keep generated files locally)
+data/reports/
+data/outbox/
+
+# OS Files
+.DS_Store
+Thumbs.db
