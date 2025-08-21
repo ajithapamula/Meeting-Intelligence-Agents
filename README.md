@@ -54,31 +54,7 @@ Accepts live meeting transcripts entered via command line or text files.
 
 Supports prefix/suffix tagging for project-specific meetings.
 
-meeting-intelligence-agent/
-│
-├── main.py # Entry point
-├── init.py # Marks project as Python package
-├── requirements.txt # Python dependencies
-│
-├── agents/ # Multi-agent system
-│ ├── init.py
-│ ├── coordinator.py # Orchestrates agents
-│ ├── note_agent.py # Extracts meeting notes
-│ ├── action_agent.py # Extracts action items
-│ └── summary_agent.py # Generates summary
-│
-├── mcp/ # MCP-style client and tools
-│ ├── init.py
-│ ├── client.py # MCP client
-│ ├── server.py # MCP server
-│ └── tools.py # save_report, send_email, task_tracker
-│
-├── data/ # Stores outputs and sample data
-│ ├── reports/ # Generated reports
-│ ├── outbox/ # Simulated emails
-│ └── sample_meetings/ # Sample transcripts
-│
-└── venv/ # Virtual environment
+
 Sample Output:
 === Meeting Intelligence Agent ===
 
