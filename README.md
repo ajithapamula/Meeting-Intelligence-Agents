@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Meeting-Intelligence-Agents
 =======
 Meeting Intelligence Agent
@@ -56,30 +56,29 @@ Supports prefix/suffix tagging for project-specific meetings.
 
 meeting-intelligence-agent/
 │
-├── main.py                     # Entry point
-├── __init__.py                 # Marks project as Python package
-├── requirements.txt            # Python dependencies
+├── main.py # Entry point
+├── init.py # Marks project as Python package
+├── requirements.txt # Python dependencies
 │
-├── agents/                     # Multi-agent system
-│   ├── __init__.py
-│   ├── coordinator.py          # Orchestrates agents
-│   ├── note_agent.py           # Extracts meeting notes
-│   ├── action_agent.py         # Extracts action items
-│   └── summary_agent.py        # Generates summary
+├── agents/ # Multi-agent system
+│ ├── init.py
+│ ├── coordinator.py # Orchestrates agents
+│ ├── note_agent.py # Extracts meeting notes
+│ ├── action_agent.py # Extracts action items
+│ └── summary_agent.py # Generates summary
 │
-├── mcp/                        # MCP-style client and tools
-│   ├── __init__.py
-│   ├── client.py               # MCP client
-│   ├── server.py               # MCP server
-│   └── tools.py                # save_report, send_email, task_tracker
+├── mcp/ # MCP-style client and tools
+│ ├── init.py
+│ ├── client.py # MCP client
+│ ├── server.py # MCP server
+│ └── tools.py # save_report, send_email, task_tracker
 │
-├── data/                       # Stores outputs and sample data
-│   ├── reports/                # Generated reports
-│   ├── outbox/                 # Simulated emails
-│   └── sample_meetings/        # Sample transcripts
+├── data/ # Stores outputs and sample data
+│ ├── reports/ # Generated reports
+│ ├── outbox/ # Simulated emails
+│ └── sample_meetings/ # Sample transcripts
 │
-└── venv/                       # Virtual environment
-
+└── venv/ # Virtual environment
 Sample Output:
 === Meeting Intelligence Agent ===
 
@@ -172,4 +171,4 @@ Dashboard for tasks, action items, and summaries
 Automatic email delivery for all participants
 
 Integration with corporate tools (Slack, Teams, Jira)
->>>>>>> 4ba2f79 (Initial commit with .gitignore and updated README)
+
