@@ -1,5 +1,5 @@
-
-# Meeting-Intelligence-Agents
+'''
+## Meeting-Intelligence-Agents
 =======
 Meeting Intelligence Agent
 
@@ -7,9 +7,9 @@ Version: 1.0
 Author: Ajitha
 Project Type: Multi-Agent System + MCP Integration
 Language: Python 3.10+
-
-📖 Project Overview
-
+'''
+## 📖 Project Overview
+'''
 The Meeting Intelligence Agent is a corporate productivity tool designed to process meeting transcripts and generate structured, actionable outputs. It uses a multi-agent system approach to handle different aspects of meeting intelligence:
 
 Notes Extraction – Summarizes key discussion points.
@@ -21,9 +21,9 @@ Summary Generation – Creates concise, human-readable meeting summaries.
 MCP Integration – Simulates a Model Context Protocol for automating tasks like saving reports or sending emails.
 
 Goal: Reduce repetitive manual work for managers, HR, or project teams, and provide instant meeting insights.
-
-🌟 Features
-
+'''
+## 🌟 Features
+'''
 Multi-Agent System
 
 NoteAgent: Extracts key discussion points.
@@ -54,8 +54,10 @@ Accepts live meeting transcripts entered via command line or text files.
 
 Supports prefix/suffix tagging for project-specific meetings.
 
+'''
 
-Sample Output:
+## Sample Output:
+'''
 === Meeting Intelligence Agent ===
 
 Transcript:
@@ -81,7 +83,7 @@ Quarterly report to be completed by Friday. Bob handles finance, Carol prepares 
 You can provide manual input instead of reading from a file:
 
 python main.py --prefix "team-meeting" --input
-
+'''
 🛠 How It Works
 
 1.CoordinatorAgent receives meeting transcript (live or file).
