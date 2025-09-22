@@ -120,8 +120,8 @@ python main.py --prefix "team-meeting" --input
              │ Task Tracker     │
              └─────────────────┘
 
-✅ Career & Corporate Value
-
+## ✅ Career & Corporate Value
+'''
 Reduces HR/management workload by automatically summarizing meetings.
 
 Demonstrates multi-agent system design and automation integration (MCP).
@@ -129,17 +129,17 @@ Demonstrates multi-agent system design and automation integration (MCP).
 Easily expandable to include real-time audio transcripts, email notifications, and dashboard integrations.
 
 Strong resume project for AI/automation roles in corporate environments.
-
-📦 Requirements
-
+'''
+## 📦 Requirements
+'''
 Python 3.10+
 
 OpenAI API key (optional if integrating GPT models)
 
 Standard libraries: os, sys, argparse, json
-
-🛠 Future Enhancements
-
+'''
+## 🛠 Future Enhancements
+'''
 Real-time audio/video transcript integration
 
 Multi-language meeting support
@@ -149,4 +149,4 @@ Dashboard for tasks, action items, and summaries
 Automatic email delivery for all participants
 
 Integration with corporate tools (Slack, Teams, Jira)
-
+'''
