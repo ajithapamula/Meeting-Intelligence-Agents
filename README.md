@@ -1,4 +1,3 @@
-'''
 Meeting Intelligence Agent
 ```
 Version: 1.0
