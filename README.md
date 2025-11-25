@@ -1,4 +1,4 @@
-Meeting Intelligence Agent
+## Meeting Intelligence Agent
 ```
 Version: 1.0
 Author: Ajitha
